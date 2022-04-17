@@ -1,0 +1,215 @@
+body
+{
+    font-family: 'Montserrat';
+    /* padding: 3% 18%; */
+}
+#title
+{
+    background-color: #ff4c68;
+    /* padding-bottom: 30%; */
+}
+h1
+{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+    /* font-family: 'Sacramento', cursive; */
+    font-size: 3.4375rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+.container-fluid
+{
+    padding: 3% 5%;
+}
+/* .Logo
+{
+    font-size: 40px;
+}
+li a
+{
+    font-size: 20px;
+} */
+
+/* navigation bar */
+.navbar-brand
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* download buttons */
+.download-button
+{
+    margin: 5% 3% 5% 0;
+}
+.row
+{
+    /* position: relative; */
+    /* padding-bottom: 20%; */
+    /* padding-top: 20%; */
+    position: relative;
+    top: 50px;
+}
+/* title image */
+.title-image
+{
+    width: 60%;
+    top: 40px;
+    /* left: 100px; */
+    transform: rotate(25deg);
+    position: relative;
+}
+.row
+{
+    position: relative;
+    /* top: 100px; */
+}
+/* features*/
+#features
+{
+    text-align: center;
+    padding: 200px;
+    position: relative;
+    z-index: 1;
+}
+.features div
+{
+    /* margin: 20px 5px 20px 5px; */
+    padding-bottom: 50px;
+
+}
+.iconz
+{
+    font-size: 3.125rem;
+    margin-bottom: 10px;
+    color: #ef8172;
+}
+.iconz:hover
+{
+    color: #ff4c68;
+}
+
+.features h3
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.features p{
+    color: #8f8f8f;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* testimonials */
+
+#testimonials
+{
+    background-color: #ef8172;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+h2
+{
+    font-weight: bold;
+}
+.testimonials-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+/* Press */
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* carousel arrows */
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+/* pricing */
+#pricing
+{
+    padding: 100px;
+    width: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    
+}
+.card
+{
+    height: 100%;
+}
+.col
+{
+    padding: 3% 2%;
+}
+#cta
+{
+    background-color: #ef8172;
+    padding: 7% 15%;
+    text-align: center;
+}
+#cta button
+{
+    margin: 30px 10px;
+}
+#footer
+{
+    font-size: large;
+    background-color: #ef8172;
+    padding: 20px 50px;
+}
+
+/* Mobile edition */
+@media (max-width:991px ) {
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+    .title-image
+    {
+        width: 50%;
+        top: 40px;
+        /* left: 100px; */
+        /* transform: rotate(25deg); */
+        position: relative;
+    }
+
+    #title
+    {
+        text-align: center;
+    }
+}
